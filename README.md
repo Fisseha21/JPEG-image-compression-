@@ -1,2 +1,2 @@
-# JPEG-image-compression-
+# JPEG-image-compression
 This repo contains JPEG image compression 

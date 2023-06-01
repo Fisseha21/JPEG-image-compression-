@@ -7,5 +7,5 @@ values (fewer number of unique values).
 3. Apply _RLE encoding_ on the _zigZag_ encoded array such that repeting neighbouring points are stored with their value and its number of occurances (frequencies).
   _E.g._ $[2,2,2,2,2]$ is stored as $[5,2]$ implying that there are $5$ $2s$. 
 4. Apply Huffman coding on the RLE encoded array.
-5.  
+ ### Decompression ###
 

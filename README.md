@@ -8,8 +8,8 @@ values (fewer number of unique values).
   _E.g._ $[2,2,2,2,2]$ is stored as $[5,2]$ implying that there are $5$ $2s$. 
 4. Apply Huffman coding on the RLE encoded array.
  ### Decompression ###
-1. Decode the huffman coded array (in bytes) to reconstruct it to RLE encoded form.
+1. Decode the huffman coded array _(in bytes)_ to reconstruct it to _RLE encoded_ form.
 2. Apply _RLE decoding_ on the decoded huffman values to reconstruct to _ZigZag_ array.
 3. Apply _ZigZag_ decoding to reconstruct reconstructed DCT frquency values.
-4. Apply inverse DCT on each 8x8 block to reconstruct each 8x8 image blocks.
-5. Merge each reconstructed 8x8 blocks such that the reconstructed image is formed. 
+4. Apply inverse DCT on each $8 \times 8$ block to reconstruct each $8 \times 8$ image blocks.
+5. Merge each reconstructed $8 \times 8$ blocks such that the reconstructed image is formed. 
